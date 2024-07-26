@@ -1,6 +1,5 @@
 const User = require("../models/user.js");
-const passport = require("passport");
-const { loginPageFlash } = require("../contollers/users.js");
+
 
 module.exports.signUpForm = (req,res)=>{
     res.render("users/signup.ejs");
